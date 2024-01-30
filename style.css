@@ -1,7 +1,23 @@
 form{
     background-color: aliceblue;
-    padding: 2px;
+    
+    width: 100%;
+    
 }
 button{
-    background-color: blue;
+    background-color: rgb(221, 221, 238);
+    padding: 10px;
+    border-radius: 12px;
+    color: aliceblue;
+}
+  :hover button{
+    background-color: blueviolet;
+}
+form input{
+    border-radius: 10px;
+    padding: 10px;
+    /*border: 30%;*/
+}
+label{
+    color: blueviolet;
 }
